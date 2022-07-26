@@ -389,9 +389,15 @@
             for (let i=0 ; i<totalRecords ; i++) {
                 amountCredited = getRndInteger(400, 5000);
                 if (i%3 == 0 || allDates[i] === 28) {
-                    if (allDates[i] === 28) {
+                    if (allDates[i] === 28 && currentYear >= 2021 && currentMonth >= 3) {
                         currentBalance = previousBalance + 41333;
                         amountCredited = 41333;
+                    } else if (allDates[i] === 28 && currentYear == 2021 && currentMonth <= 3) {
+                        currentBalance = previousBalance + 24547;
+                        amountCredited = 24547;
+                    }else if (allDates[i] === 28 && currentYear < 2021) {
+                        currentBalance = previousBalance + 24547;
+                        amountCredited = 24547;
                     }
                     else {
                         currentBalance = previousBalance + amountCredited;
