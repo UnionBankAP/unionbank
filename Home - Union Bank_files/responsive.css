@@ -1,0 +1,202 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {	
+	.the-latest{
+		width:auto;
+	}
+}
+@media screen and (min-width:768px) and (max-width:991px){	 
+	.updates-details{
+		width:auto;
+	}
+	.nri-service{
+		margin: 10px 0 0;
+	}
+	.how-to-apply{
+		margin:0px;
+	}
+	.logo-and-login{
+		display:none;
+	}
+	.logo-and-login.inner-page-logo{
+		display:block;
+	}
+	.slider-and-likns{
+		margin-top:52px;
+	}
+	.safe-guard{
+		min-height:auto;
+		margin-top:20px;
+	}
+	.container {
+		width:100%;
+	}	
+	.three-tab-link ul li a{
+		text-align:center;
+	}
+}
+
+@media (max-width:768px){
+	.logo-and-login {
+	    margin: 50px 0 15px;
+	}
+	.inner-page-logo{
+	    margin: 0;
+	}
+	.toll-free.i-b{
+		margin:20px auto 0;
+	}
+	.i-b {
+		margin:0 auto 0;
+		text-align: center;
+		width:100%;
+	}
+	.select-language.i-b{
+		display:none;
+	}
+	.inner-page-logo .i-b{
+		width:100%;
+	}
+	.online-service{
+		padding:15px 0;
+		display:block;
+	}
+	.online-service ul{
+		text-align:center;
+	}
+	.online-service ul li{
+		width:50%;
+	}
+	.online-service ul li a{
+		border:1px solid #eb2f28 !important;
+	}
+	.online-service ul li:last-child{
+		width:100%;
+	}
+	.tp-caption .text-1{
+		font-size:20px;
+		background:none;
+	}
+	.tp-caption .text-2{
+		display:none;
+	}
+	.tp-caption .text-1:first-letter{
+		margin-right:0;
+	}
+	.tp-caption .regis-btn{
+		display:none;
+	}
+	/*.three-tab-link ul li a{
+		padding:18px 40px 18px 75px;
+	}
+	.three-tab-link ul li.saving-account a:after{
+		right: 45px;
+		top: 20px;
+	}*/
+	.union-offers h4{
+		text-align:center;
+	}
+	.apply-online ul li {
+	    display: inline-block;
+	    margin:-1px -4px 0 0;
+	    width: 49%;
+	    text-align: center;
+	    vertical-align: bottom;
+	    border:1px solid #e5e5e5;
+	}
+	.apply-online ul li a{
+		padding: 85px 0 0;
+		min-height: 135px;
+		background-position: center 25px !important;
+	}
+	.the-latest{
+		width:100%;
+		margin:0 0 25px;
+	}
+	/*.three-tab-link{
+		margin-top:30px;
+	}*/
+	.link-aadhar {
+	    margin: 15px auto;
+	}
+	.apply-for-card{
+		margin: 32px auto;
+		width:188px;
+	}
+	.how-to-apply{
+		margin:20px 0;
+	}
+	.download-app-link{
+		background-position: left 0;
+		padding: 26px 0 0;
+	}
+	.social-media.text-right, .social-media.text-right ul{
+		text-align: left;
+		padding: 8px 0 0;
+		display: block;
+	}
+	footer .col-sm-6.text-right{
+		text-align:left;
+	}
+	.online-retail.pull-right{
+		float:none !important;
+	}
+	.nri-service-text{
+		text-align:left;
+		padding:0 0 0 50px;
+	}
+	.the-latest ul {
+	    max-height:180px;
+	}
+	.common-things{
+		margin-bottom:60px;
+	}
+	footer span{
+		display:block;
+		text-align:center;
+	}
+	.visit-bank-webiste {
+		display: block;
+		margin: 25px auto 15px;
+		vertical-align: bottom;
+		text-align: center;
+		max-width: 150px;
+	}
+	footer .copy-right-bottom{
+		text-align:center;
+	}
+}
+
+@media (max-width:767px){	
+	.safe-guard{
+		min-height:auto;
+	}
+	.the-latest{
+		width:100%;
+		margin:25px 0;
+	}
+	.three-tab-link{
+		margin-top:30px;
+	}
+	.logo{
+		max-width:290px;
+		margin:0 auto;
+	}
+	.logo img{
+		width:100%;
+	}
+	.cmn-part{
+		float: none;
+		width: 100%;
+	}
+	.top-title-block p{
+		font-size: 14px;
+		text-align: center;
+	}
+	.union-icon{
+		display:none;
+	}
+	.three-tab-link ul li a, .quick-links h4, .the-latest h4, .safe-guard h4, .safe-guard p{
+		text-align:center;
+	}
+}
+
+

@@ -1,0 +1,700 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-Regular.woff') format('woff'),
+	  url('../fonts/OpenSans-Regular.ttf')  format('truetype'),
+	  url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{	
+	font-family: 'OpenSans-Regular';
+	font-weight:normal;
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+li{
+	list-style:none;
+}
+a, a:hover, a:active, a:focus{
+	text-decoration:none;
+}
+a:hover, a:active, a:focus{
+	outline:none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+	outline:none;
+	box-shadow:none;
+}
+/* End reset css */
+
+/* custom css */
+.logo-and-login{
+	padding:19px 0 15px;
+}
+.toll-free-text{
+	color: #000;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.toll-img, .toll-num{
+	display:inline-block;
+	vertical-align:middle;
+}
+.toll-img{
+	margin-right:-5px;
+}
+.toll-num{
+	background: #0066B0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    background-size: 100%;
+    width: 224px;
+    height: 21px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.i-b{
+	display:inline-block;
+	margin:0 5px;
+}
+.toll-free{
+	margin-right:10px;
+	vertical-align:middle;
+}
+.three-tab-link ul{  
+  background-color:#0c83ce;
+}
+.three-tab-link ul li a{
+	display:block;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:17px 20px;
+	text-transform:capitalize;
+	border-bottom:1px solid #0575b9;
+}
+.three-tab-link ul li.active, .three-tab-link ul li:hover{
+  background-color:#e31c22;
+}
+.three-tab-link ul li.internet-banking a{
+	background:url("../images/internet-banking.png") no-repeat;
+	background-position:35px center;
+}
+.three-tab-link ul li.saving-account a{
+	background:url("../images/saving-account.png") no-repeat;
+	background-position:35px center;
+	position:relative;
+}
+.three-tab-link ul li.saving-account a:after{
+	content:"";
+	background:url("../images/new-ac.png") no-repeat;
+	position:absolute;
+	right: 20px;
+	top: 35px;
+	width: 23px;
+	height: 22px;
+}
+.three-tab-link ul li.home-loan a{
+	background:url("../images/home-loan.png") no-repeat;
+	background-position:35px center;
+}
+.main-menu{
+	width:100%;
+	background:#e31c22;
+}
+
+
+/* Footer */
+
+footer{
+	border-top: 1px solid #0278BA;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	margin: 30px 0 0;
+}
+footer .footer-link a{
+	color:#737577;
+	font-size:14px;
+	padding:0 5px;
+	border-right:2px solid #737577;
+	display:inline-block;
+	line-height:100%;
+}
+footer .footer-link a:hover{
+	color:#ffffff;
+}
+footer p.copy-right, .power-by{
+	color:#737577;
+	font-size:14px;
+	margin:28px 0 0;
+}
+footer span{
+	color:#7d7d7d;
+    font-size: 11px;
+	text-align:center;
+	width: 78.047%;
+	margin:0 auto;
+	display:block;	
+}
+	font-weight:bold;
+}
+.online-retail-first{
+	position:relative;
+}
+.online-retail-first a.new{
+	position:absolute;
+	top:5px;
+	left:0px;
+	font-size:9px;
+	font-weight:bold;
+	color:#ffffff;
+	background:url("../images/new.png") no-repeat;
+	background-position:left;
+	width:53px;
+	height:25px;
+	padding: 8px 15px;
+}
+.online-retail-first a.existing{
+	position:absolute;
+	top:30px;
+	left:0px;
+	font-size:9px;
+	font-weight:bold;
+	color:#ffffff;
+	background:url("../images/existing.png") no-repeat;
+	background-position:left;
+	width:73px;
+	height:25px;
+	padding: 8px 15px;
+}
+.personal-banking{
+	margin-top:5px;
+	position:relative;
+}
+.personal-banking img, .online-retail-first img{
+	width:100%;
+}
+.personal-banking h4{
+	position:absolute;
+	color:#ffffff;
+	font-size:17px;
+	font-weight:bold;
+	top:35px;
+	left:10px;
+}
+.personal-banking .apply{
+	border-radius: 4px;
+	background-image: -moz-linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	background-image: linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	font-size:10px;
+	color:#fff;
+	text-align:center;
+	width:82px;
+	height:22px;  
+	line-height:22px;
+	top:110px;
+	left:10px;
+	position:absolute;
+}
+.personal-banking .apply a{
+	font-size:10px;
+	color:#fff;
+	text-align:center;
+}
+.quick-links{
+  background-color:#0c83ce;
+  border-radius:5px; 
+  padding:15px;
+  display:block;
+  min-height:286px;
+}
+.quick-links h4{
+	color:#ffffff;
+	font-size:18px;
+	margin:0 0 15px;
+}
+.quick-links ul{
+	padding-left:8px;
+}
+.quick-links ul li{
+	margin-bottom:8.2px;
+}
+.quick-links ul li a{
+	color:#ffffff;
+	background: url(../images/li-arrow-w.png) no-repeat;
+	background-position: left 8px;
+	padding: 0 0 0 20px;
+	display: block;
+	font-size:13px;
+	font-weight:bold;
+}
+.quick-links ul li a:hover{
+	color: #00ddf1;
+	text-decoration:underline;
+}
+.nri-service{
+	margin:10px 0 45px;
+}
+.nri-service-text{
+	color:#505050;
+	font-size:14px;
+	text-align:center;
+}
+.nri-service-num{
+	position:relative;
+}
+.nri-service-num img{
+	position: absolute;
+    bottom: 0;
+    left: -8px;
+}
+.nri-num {
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	background-image: linear-gradient( 0deg, rgb(245,54,46) 0%, rgb(255,83,76) 100%);
+	color: #ffffff;
+	font-weight: bold;
+	font-size:19px;
+	background-size: 100%;
+	width:240px;
+	height:41px;
+	text-align: center;
+	line-height:41px;
+	border-radius:10px;
+}
+.nri-img, .nri-num {
+    display: inline-block;
+    vertical-align: middle;
+}
+.apply-for-card{
+    position: relative;
+    margin: 32px 0 0;
+}
+.apply-for-card img{
+	position: absolute;
+    bottom: -3px;
+    left: -30px;
+}
+.apply-for-card a{
+	background-image: -moz-linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	background-image: linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	width: 187px;
+	height: 41px;
+	display:block;
+	color:#ffffff;
+	text-align:center;
+	border-radius:10px;
+	line-height:41px;
+	font-size:14px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+.updates-details{
+	width: 301px;
+    margin: 20px auto;
+}
+.updates-details a{
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	background-image: linear-gradient( 0deg, rgb(11,129,201) 0%, rgb(56,168,236) 100%);
+	width: 301px;
+	height: 51px;
+	line-height:51px;
+	display:block;
+	color:#ffffff;
+	text-align:center;
+	border-radius:10px;
+	font-size:16px;
+	position:relative;
+}
+.updates-details a:after{
+	content:"";
+	background:url("../images/new-cross.png") no-repeat;
+	position:absolute;
+	right:-1px;
+	top:-1px;
+	width:38px;
+	height:38px;
+}
+.link-aadhar{
+	margin:16px 0 0 -42px;
+}
+.link-aadhar a{
+  background:url("../images/aadhar.png") no-repeat;	
+  background-position:0 0;
+  width:302px;
+  height:54px;
+  line-height:51px;
+  color:#ffffff;
+  font-size:16px;
+  display:block;
+  padding: 0 15px;
+}
+.sms-text{
+	font-size:15px;
+	color:#878787;
+}
+
+.how-to-apply a{
+	color:#00579c;
+	font-weight:bold;
+	border:1px dashed #e31c22;
+	padding:5px 13px;
+	border-radius:25px;
+	display:block;
+	text-align:center;
+}
+.how-to-apply a:hover{
+	color:#e31c22;
+}
+.how-to-apply a i{
+	color:#e31c22;
+}
+.alerts a{
+	background:url("../images/alerts.png") no-repeat;
+	color:#ffffff;
+	text-align:left;
+	display:block;
+	padding: 6px 0 6px 15px;
+}
+.alerts-and-apply{
+	margin-bottom:30px;
+	display:inline-block;
+}
+.latest-section{
+	margin:30px 0;
+}
+.the-latest{
+	border:1px dashed #00579c;
+	padding: 0 0 5px 20px;
+}
+.the-latest h4{
+	color:#e31c22;
+	font-size:19px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:12px 0 5px;
+}
+.the-latest h4 span{
+	color:#0c83ce;
+	font-weight:normal;
+}
+.the-latest ul{
+	max-height:242px;
+	overflow-y: auto;
+	overflow-x:hidden;
+}
+.the-latest ul li a{
+	background: url(../images/li-arrow.png) no-repeat;
+	background-position: left 8px;
+	padding: 0 0 0 20px;
+	display: block;
+	color:#878787;
+	font-weight:bold;
+}
+.the-latest ul li{
+	margin:4px 0;
+}
+.the-latest ul li a:hover{
+	color:#e31c22;
+}
+.the-latest ul li:first-child a{
+	color:#e31c22;
+	text-decoration:underline;
+}
+.four-block{
+	display: inline-block;
+    width: 100%;
+    margin: 20px 0 0;
+}
+.safe-guard{
+	border:1px dashed #00579c;
+	padding: 12px 20px;
+    min-height: 286px;
+}
+.safe-guard h4{
+	color: #e31c22;
+	font-size: 19px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin:0 0 5px;
+}
+.safe-guard h4 span {
+    color: #0c83ce;
+    font-weight: normal;
+    font-size:15px;
+}
+.safe-guard p{
+	color:#444444;
+}
+
+/* Inner page css */
+.red-and-blue-part{
+	position:relative;
+}
+.cmn-part{
+	float:left;
+	width:50%;
+	display:block;
+	height:36px;
+	position:relative;
+}
+.red-part{
+	background-color:#e31c22;	
+}
+.blue-part{
+	background-color:#0066b0;	
+}
+.union-icon{
+	position:absolute;
+	left:50%;
+	margin-left:-25.5px;
+	top:-6px;
+}
+.p-0{
+	padding:0px;
+}
+/* End Inner page css */
+
+.right-img-main{
+	position:relative;
+}
+
+/* beware-of-phishing-attacks css */
+
+.visit-bank-webiste{
+	display: inline-block;
+    margin-right:25px;
+    vertical-align: bottom;
+}
+.visit-bank-webiste a{
+	color: #0066b0;
+    font-size: 13px;
+    border: 1px solid #e31c22;
+    padding:3px 13px;
+    display: block;
+    border-radius: 25px;
+    max-width: 150px;
+    font-weight:500;
+}
+.visit-bank-webiste a:hover{
+	background:#e31c22;
+	color:#ffffff;
+}
+
+.beware-of-phishing-main{
+	background: url(../images/LogoutSuccessful.jpg) repeat;
+    background-size: cover;
+    padding:35px 0 40px;
+    display: block;
+    color:#ffffff;
+}
+.beware-data-inner h4{	
+	font-size:20px;
+	font-weight:500;
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 15px;
+}
+.beware-data-inner p{
+	font-size:16px;
+	text-align:center;
+}
+.both-things-wrap{
+	margin:55px 0 0;
+	color:#000000;
+}
+.common-things{
+	background:#ffffff;
+	padding:65px 35px 40px 35px;
+  	border-radius: 6px;
+}
+.common-things ul li{
+	margin: 0 0 8px;
+    color: #414141;
+    font-weight: 500;
+    position: relative;
+    padding: 0 0 0 24px;
+}
+.success-icon{
+	position: absolute;
+    background-color: #ffffff;
+    height: 83px;
+    width: 83px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 83px;
+    top: -42px;
+    border: 1px solid #55c9a9;
+    left: 50%;
+    margin-left: -42px;
+    padding:19px 22px;
+    display:block;
+}
+.success-icon img{
+	display:block;
+	text-align:center;
+}
+
+.wrong-things.common-things ul li:before{
+	position:absolute;
+	content:"\f00d";
+	font-family:"FontAwesome";
+	font-size:15px;
+	color:#e34f54;
+	left:0;
+	top:0;
+}
+.right-things.common-things ul li:before{
+	position:absolute;
+	content:"\f00c";
+	font-family:"FontAwesome";
+	font-size:15px;
+	color:#00caab;
+	left:0;
+	top:0;
+}
+.wrong-icon{
+	position: absolute;
+	background-color: #ffffff;
+	height: 83px;
+	width: 83px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 83px;
+	top: -42px;
+	border: 1px solid #e34f54;
+	left: 50%;
+	margin-left: -42px;
+	padding: 19px 22px;
+	display: block;
+}
+.wrong-icon img {
+    display: block;
+    text-align: center;
+}
+.continue-to-login{	
+    color: #ffffff;
+    background-color:#31b0df;
+    border-radius: 8px;
+    padding: 15px 25px;
+    margin:30px auto 0;
+    display: block;
+    font-size:16px;
+    font-weight:500;
+    text-transform: uppercase;
+    max-width: 220px;
+    text-align: center;
+    box-shadow:0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.continue-to-login:hover{
+	color:#ffffff;
+	opacity:0.9;
+}
+.disclaimer{
+	margin-top:30px;
+	color:#ffffff;
+}
+.disclaimer h4{
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.disclaimer ol{
+	list-style-type: decimal;
+	display:block;
+	padding-left:15px;
+}
+.disclaimer ol li{
+	font-size:13px;
+	margin-bottom:10px;
+	display:list-item;	
+	list-style: inherit;
+}
+/* End beware-of-phishing-attacks css */
+
+.f-menu{
+	margin:5px auto;
+	display:block;
+}
+.f-menu li{
+	display:inline-block;	
+}
+.f-menu li a{
+	font-size:12px;
+	border-right: 1px solid #05579B;    
+	text-decoration: none;
+	color:#065A9C;
+	padding:0 10px;
+	font-weight:300;
+}
+.f-menu li:last-child a{
+	border:none;
+}
+.f-menu li a:hover{
+	text-decoration:underline;
+}
+.copy-right-union{
+	color:#7d7d7d;
+    margin-bottom: 5px;
+    font-weight: 300;
+    margin: 0;
+	font-size:11px;
+}
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: block;
+}
+.owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: -7px;
+    background:#e31c22;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav .fa {
+    font-size: 12px;
+    font-weight: 100;
+}
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: -7px;
+    background:#e31c22;
+    color: #fff;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+}
+.quick-links marquee{
+	height: 215px;
+}
